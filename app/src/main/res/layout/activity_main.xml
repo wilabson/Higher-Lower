@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/transparent_gray"
+        app:cardCornerRadius="32dp"
+        app:cardElevation="2dp">
+        <TextView
+            android:id="@+id/tv_main_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:paddingHorizontal="34dp"
+            android:paddingTop="44dp"
+            android:text="@string/game_title"
+            android:textSize="32sp"/>
+        <TextView
+            android:id="@+id/tv_main_title_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:paddingTop="96dp"
+            android:paddingBottom="44dp"
+            android:text="@string/game_subtitle"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_play_title"
+        android:backgroundTint="@color/green"
+        android:layout_marginTop="44dp"/>
+    <Button
+        android:id="@+id/btn_howtoplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_howto_title"
+        android:backgroundTint="@color/blue"
+        android:layout_marginTop="44dp"/>
+
+
+</LinearLayout>

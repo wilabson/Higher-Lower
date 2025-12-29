@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".GameActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/transparent_gray"
+        app:cardCornerRadius="32dp"
+        app:cardElevation="2dp">
+        <TextView
+            android:id="@+id/tv_gameactivity_title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:paddingHorizontal="66dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="78dp"
+            android:text="@string/higher_or_lower_game"
+            android:textSize="24sp"/>
+        <TextView
+            android:id="@+id/tv_high_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:paddingTop="58dp"
+            android:text="@string/high_score"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/tv_score_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:paddingTop="82dp"
+            android:text="@string/score_text"
+            android:textSize="20sp"/>
+        <ImageButton
+            android:id="@+id/btn_image_back"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:paddingLeft="24dp"
+            android:paddingTop="24dp"
+            android:src="@drawable/back_arrow"
+            android:backgroundTint="@color/transparent_gray"/>
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/iv_currentcard"
+        android:src="@drawable/king_of_hearts2"
+        android:layout_width="100dp"
+        android:layout_height="150dp"/>
+    <ImageView
+        android:id="@+id/iv_guessedcard"
+        android:src="@drawable/questionmark_back"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="34dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_higher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:text="@string/btn_higher_text" />
+        <Button
+            android:id="@+id/btn_lower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/btn_lower_text" />
+
+    </LinearLayout>
+</LinearLayout>

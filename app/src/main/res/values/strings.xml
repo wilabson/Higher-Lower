@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">HigherLower</string>
+    <string name="game_title">Higher /\\ Lower</string>
+    <string name="game_subtitle">The Card Guessing Game!</string>
+    <string name="btn_play_title">▶️ Start Game</string>
+    <string name="btn_howto_title">❔How To Play</string>
+    <string name="high_score">High Score: 0</string>
+    <string name="higher_or_lower_game">Higher or Lower?</string>
+    <string name="score_text">Score: 0</string>
+    <string name="btn_higher_text">↑ Higher</string>
+    <string name="btn_lower_text">Lower ↓</string>
+    <string name="game_over">Game Over</string>
+    <string name="restart">Restart</string>
+    <string name="main_menu">Main Menu</string>
+</resources>

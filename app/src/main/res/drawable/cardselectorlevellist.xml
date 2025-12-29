@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:drawable="@drawable/ace_of_hearts"
+        android:maxLevel="0" />
+    <item
+        android:drawable="@drawable/two_of_hearts"
+        android:maxLevel="1" />
+    <item
+        android:drawable="@drawable/three_of_hearts"
+        android:maxLevel="2" />
+    <item
+        android:drawable="@drawable/four_of_hearts"
+        android:maxLevel="3" />
+    <item
+        android:drawable="@drawable/five_of_hearts"
+        android:maxLevel="4" />
+    <item
+        android:drawable="@drawable/six_of_hearts"
+        android:maxLevel="5" />
+    <item
+        android:drawable="@drawable/seven_of_hearts"
+        android:maxLevel="6" />
+    <item
+        android:drawable="@drawable/eight_of_hearts"
+        android:maxLevel="7" />
+    <item
+        android:drawable="@drawable/nine_of_hearts"
+        android:maxLevel="8" />
+    <item
+        android:drawable="@drawable/ten_of_hearts"
+        android:maxLevel="9" />
+    <item
+        android:drawable="@drawable/jack_of_hearts2"
+        android:maxLevel="10" />
+    <item
+        android:drawable="@drawable/queen_of_hearts2"
+        android:maxLevel="11" />
+    <item
+        android:drawable="@drawable/king_of_hearts2"
+        android:maxLevel="12" />
+    <item
+        android:drawable="@drawable/red_joker"
+        android:maxLevel="13" />
+    <item
+        android:drawable="@drawable/questionmark_back"
+        android:maxLevel="14" />
+</level-list>

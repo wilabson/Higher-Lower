@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".HowToActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:cardBackgroundColor="@color/transparent_gray"
+        app:cardCornerRadius="32dp"
+        app:cardElevation="0dp">
+        <TextView
+            android:id="@+id/tv_howto_title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:paddingHorizontal="92dp"
+            android:paddingTop="32dp"
+            android:paddingBottom="78dp"
+            android:text="How to Play"
+            android:textSize="24sp"/>
+        <TextView
+            android:id="@+id/tv_howto_gametitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:paddingTop="78dp"
+            android:text="Higher /\\ Lower"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/tv_howto_gamesubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:paddingTop="120dp"
+            android:paddingBottom="20dp"
+            android:text="The Card Guessing Game"
+            android:textSize="12sp"/>
+        <ImageButton
+            android:id="@id/btn_image_back"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:paddingLeft="24dp"
+            android:paddingTop="24dp"
+            android:src="@drawable/back_arrow"
+            android:backgroundTint="@color/transparent_gray"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/transparent_gray"
+        app:cardCornerRadius="32dp"
+        app:cardElevation="2dp">
+        <TextView
+            android:id="@+id/tv_howto_rules_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:paddingHorizontal="60dp"
+            android:paddingTop="32dp"
+            android:paddingBottom="78dp"
+            android:text="Rules of the game"
+            android:textSize="24sp"/>
+        <TextView
+            android:id="@+id/tv_howto_rules_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="78dp"
+            android:paddingHorizontal="16dp"
+            android:text="1. Rule 1"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/tv_howto_rules_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="124dp"
+            android:paddingLeft="16dp"
+            android:text=""
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/tv_howto_rules_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="170dp"
+            android:paddingLeft="16dp"
+            android:text=""
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/tv_howto_rules_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="216dp"
+            android:paddingBottom="40dp"
+            android:paddingLeft="16dp"
+            android:text=""
+            android:textSize="20sp"/>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
